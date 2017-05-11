@@ -11,7 +11,8 @@ if len(sys.argv) > 1:
 
     for item in arguments:
 
-        url = "http://www.ebay.com/sch/i.html?_from=R40&_sacat=0&LH_Auction=1&_nkw=" + item + "&_sop=1"
+    	# + "&_sop=1"
+        url = "http://www.ebay.com/sch/i.html?_from=R40&_sacat=0&LH_Auction=1&_nkw=" + item
 
         # site holds an open version of the website
         page = urllib2.urlopen(url)
